@@ -15,7 +15,7 @@ section.text.table.tbody.tr.td.content	//section/text/table/tbody/tr[*]/td/conte
 section.text.table.thead.tr.th.text	//section/text/table/thead/tr/th[*]/text()
 section.entry.organizer.component	//section/entry[*]/organizer/component[*]
 section.entry.organizer.statusCode.@code	//section/entry[*]/organizer/statusCode/@code
-section.entry.organizer.code.@codeSystem	//section/entry[*]/organizer/code/@codeSystem
+section.entry.organizer.code.@codeSystem	//section/entry[*]/organizer/code/@codeSystem // todo finish here
 section.text.table	//section/text/table
 section.title	//section/title
 section.entry.organizer.component.observation.code.@code	//section/entry[*]/organizer/component[*]/observation/code/@code

@@ -1,0 +1,7 @@
+select xpath_string(results_section,
+"//section/entry[1]/organizer/component[3]/observation/referenceRange/observationRange/value/high/@value")
+from parquet_ccd
+
+select xpath_string(results_section,
+"//section/entry[2]/organizer/code/@codeSystem")
+from parquet_ccd
