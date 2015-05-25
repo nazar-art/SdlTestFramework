@@ -1817,7 +1817,8 @@ Results section
                         </table>
                     </text>
                     <!-- todo MY SECTION - # 1 real count!! entry # 2-->
-                    <entry typeCode="DRIV">
+                    <!-- todo #1 entry -->
+                    <entry typeCode="DRIV"> <!-- todo #1 entry -->
                         <organizer classCode="BATTERY" moodCode="EVN">
                             <templateId root="2.16.840.1.113883.10.20.1.32"/>
                             <!-- Result organizer template -->
@@ -1885,6 +1886,7 @@ Results section
                             </component>
                         </organizer>
                     </entry>
+                    <!-- todo entry #2-->
                     <entry typeCode="DRIV">
                         <organizer classCode="BATTERY" moodCode="EVN">
                             <templateId root="2.16.840.1.113883.10.20.1.32"/>
