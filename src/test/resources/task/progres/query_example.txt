@@ -5,3 +5,5 @@ from parquet_ccd
 select xpath_string(results_section,
 "//section/entry[2]/organizer/code/@codeSystem")
 from parquet_ccd
+
+"/section/entry[*]/organizer/component[*]/observation/value/@*[local-name() = 'type']"
