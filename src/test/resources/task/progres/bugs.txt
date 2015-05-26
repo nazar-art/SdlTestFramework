@@ -1,6 +1,27 @@
+RESULTS SECTION
+
 select xpath_string(results_section,
     "//section/entry[1]/organizer/component[2]/observation/referenceRange/observationRange/value/@xsi:type")
 from parquet_ccd
 
 Expected result: IVL_PQ
 Actual result (null, nothing):
+
+to take - <value xsi:type="IVL_PQ">
+
+    SOLUTION:
+        select xpath_string(results_section,
+            "//section/entry[1]/organizer/component[2]/observation/referenceRange/observationRange/value/@*[local-name() = 'type']")
+        from parquet_ccd
+
+
+==================
+PROCEDURES SECTION
+
+    FAILED FULL
+
+
+==============
+PAYERS SECTION
+
+

@@ -1,9 +1,24 @@
 select xpath_string(results_section,
-"//section/entry[1]/organizer/component[3]/observation/referenceRange/observationRange/value/high/@value")
+    "//section/entry[1]/organizer/component[3]/observation/referenceRange/observationRange/value/high/@value")
 from parquet_ccd
 
 select xpath_string(results_section,
 "//section/entry[2]/organizer/code/@codeSystem")
 from parquet_ccd
 
-"/section/entry[*]/organizer/component[*]/observation/value/@*[local-name() = 'type']"
+    Edgar solution:
+        /section/entry[*]/organizer/component[*]/observation/value/@*[local-name() = 'type']
+
+-----------------------
+
+PROBLEMS SECTION:
+
+    select xpath_string(problem_section,
+                        "//section/entry[3]/act/entryRelationship[2]/@inversionInd")
+    from parquet_ccd
+
+    ------------
+    last example:
+    select xpath_string(payers_section,
+                        "//section/entry/act/entryRelationship/act/entryRelationship/act/entryRelationship/procedure/code/@displayName")
+    from parquet_ccd
