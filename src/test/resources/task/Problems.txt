@@ -5,7 +5,7 @@ section.entry.act.entryRelationship.observation.value.qualifier.name	//section/e
 section.entry.act.entryRelationship.observation.value.qualifier.name.@code	//section/entry[*]/act/entryRelationship[*]/observation/value/qualifier/name/@code
 section.entry.act.entryRelationship.observation.entryRelationship.act.code	//section/entry[*]/act/entryRelationship[*]/observation/entryRelationship/act/code
 section.entry.act.entryRelationship.observation.entryRelationship.observation.statusCode.@code	//section/entry[*]/act/entryRelationship/observation/entryRelationship/observation/statusCode/@code
-section.entry.act.entryRelationship.observation.entryRelationship.observation.value.@xsi:type	//section/entry[*]/act/entryRelationship/observation/entryRelationship/observation/value/@xsi:type //todo issue the same as for ":"
+section.entry.act.entryRelationship.observation.entryRelationship.observation.value.@xsi:type	//section/entry[*]/act/entryRelationship/observation/entryRelationship/observation/value/@xsi:type
 section.text.table.thead.tr	//section/text/table/thead/tr
 section.entry.act.entryRelationship.observation.code	//section/entry[*]/act/entryRelationship/observation/code
 section.text.table.tbody.tr.td	//section/text/table/tbody/tr[*]/td[*]

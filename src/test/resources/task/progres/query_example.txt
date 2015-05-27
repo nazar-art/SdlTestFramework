@@ -22,3 +22,15 @@ PROBLEMS SECTION:
     select xpath_string(payers_section,
                         "//section/entry/act/entryRelationship/act/entryRelationship/act/entryRelationship/procedure/code/@displayName")
     from parquet_ccd
+
+
+==================
+PROCEDURES SECTION
+
+    select xpath_string(procedures_section,
+                        "//section/entry/procedure/statusCode/@code")
+    from parquet_ccd
+
+===================
+MEDICATIONS SECTION
+
