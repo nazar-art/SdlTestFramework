@@ -34,3 +34,7 @@ PROCEDURES SECTION
 ===================
 MEDICATIONS SECTION
 
+    select xpath_string(medications_section,
+                        "//section/entry/procedure/statusCode/@code")
+    from parquet_ccd
+
