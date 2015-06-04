@@ -4,7 +4,8 @@
 <ClinicalDocument xmlns="urn:hl7-org:v3"
                   xmlns:voc="urn:hl7-org:v3/voc"
                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                  xsi:schemaLocation="urn:hl7-org:v3 C:\DOCUME~1\RICKGE~1\MYDOCU~1\AlschulerAssociates\projects\hl7\CDA_R2_NormativeWebEdition2005\infrastructure\cda\CDA.xsd">
+                  xsi:schemaLocation="urn:hl7-org:v3
+                  ../task/shemas/CDA.xsd">
     <!--
 ********************************************************
 CDA Header
